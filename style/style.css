@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body header{
+
+    background-color: #000000;
+    color: #ffffff;
+    padding: 24px 130px;
+    border-radius: 20px;
+    margin-left: 894px;
+    position: absolute;
+    top: 96px;
+}
+.forma{
+    position: relative;
+    margin-top: 230px;
+    margin-left: 894px;
+    width: 580px;
+    display: flex;
+    
+    
+}
+.monacemebi input{
+    width: 580px;
+    height: 60px;
+    margin-bottom: 28px;
+    border-radius: 20px;
+    opacity: 50%;
+}
+.area{
+    position: absolute;
+    top: 244px;
+    font-size: 10px;
+    font-weight: bolder;
+    
+}
+.monacemebi textarea{
+    width: 580px;
+    border-radius: 20px;
+    opacity: 50%;
+}
+.gadaxda{
+    position: absolute;
+    top: 398px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.archevani{
+    display: flex;
+    justify-content: space-between;
+}
+.monacemebi input{
+    border-style: none;
+    border-bottom: solid 1px #000000;
+    padding-left: 10px;
+}
+.archevani input{
+    width: 20%;
+    height: 30px;
+    margin-top: 40px;
+}
+.archevani label{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.monacemebi input[type="submit"]{
+    background-color: #01AF8C;
+    color: #000000;
+    opacity: 100%;
+}
+
+  
